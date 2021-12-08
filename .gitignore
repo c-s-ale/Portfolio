@@ -1,5 +1,7 @@
 # Whale CNN Data
-/Humpback Whale Identification/data
+/Humpback Whale Identification/input
+/Humpback Whale Identification/excess
+/Humpback Whale Identification/output/cropping.model
 /Humpback Whale Identification/output.csv
 
 # Fourth Brain Idenpendent Project Data
