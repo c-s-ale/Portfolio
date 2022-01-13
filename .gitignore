@@ -5,10 +5,7 @@
 /Humpback Whale Identification/output.csv
 
 # Fourth Brain Idenpendent Project Data
-/Fourth Brain Independent Project - Histopathologic Cancer Detection/data/train
-/Fourth Brain Independent Project - Histopathologic Cancer Detection/data/test
-/Fourth Brain Independent Project - Histopathologic Cancer Detection/data/train_labels.csv
-/Fourth Brain Independent Project - Histopathologic Cancer Detection/data/sample_submission.csv
+/Fourth Brain Independent Project - Histopathologic Cancer Detection/data/
 
 # MNIST CNN Data
 /MNIST Digit Recognizer/data
