@@ -61,4 +61,9 @@ def plot_category(img):
     read_img = mpimg.imread(img)
     ROOT_DIR = os.path.dirname(os.path.abspath(__file__))
     path = os.path.join(ROOT_DIR + '/static/images/output.png')
-    plt.imsave(path, read_img)
+    try: 
+        os.remove(path)
+    except:
+        pass
+    finally:
+        plt.imsave(path, read_img)
