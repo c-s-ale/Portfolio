@@ -1,0 +1,6 @@
+version: '3.8'
+services:
+  spotify-v1:
+    image: "csale/spotify-capstone"
+    ports:
+      - "80:5000"

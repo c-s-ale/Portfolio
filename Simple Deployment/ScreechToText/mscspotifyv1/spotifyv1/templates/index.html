@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Wake Word Detection</title>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles/index.css') }}" />
+</head>
+<body>
+<div id="speechContainer">
+    <h1>Upload .WAV Files</h1>
+    <form method="post" enctype="multipart/form-data">
+        <label>Wake Word</label>
+        <input type="file" name="wake_file"/>
+        <br>
+        <label>Audio to Transcribe</label>
+        <input type="file" name="audio_file"/>
+        <br>
+        <input type="submit" id="submitButton" value="Detect Wake Word"/>
+    </form>
+
+    {% if new_wake_word != "" %}
+    <div id="setNewWakeWord">
+        <h1>Wake Word: </h1>
+        {% if set_wake %}
+            <p>New!</p>
+        {% endif %}
+        {% if default_wake %}
+            <p>Default!</p>
+        {% endif %}
+        <p id="junk_transcription" style='color:blue'>{{ wake_word_string }}</p>
+    </div>
+    {% endif %}
+
+    <div id="speechTranscriptContainer">
+    <h1>Transcript</h1>
+    {% if command != "" %}
+        <p id="junk_transcription" style='color:red'>{{ does_not_contain_string }}</p>
+        <p id="wakeword_transcription" style='color:blue'>{{ wakeword_string }}</p>
+        <p id="command_transcription" style='color:green'>{{ command }}</p>
+    {% else %}
+        <p id="junk_transcription" style='color:red'>Did Not Detect Wake Word</p>
+    {% endif %}
+    </div>  
+</div>
+</body>
+</html>
