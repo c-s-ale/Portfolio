@@ -1,0 +1,12 @@
+batchgenerators
+numpy
+SimpleITK
+medpy
+nibabel
+pillow
+opencv-python
+torch
+scipy
+scikit-image
+requests
+argparse

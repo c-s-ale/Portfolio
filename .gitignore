@@ -15,5 +15,5 @@ MNIST Digit Recognizer/submission.csv
 MNIST Digit Recognizer/submission_qmnist.csv
 
 # KITS21 Segmentation Project
-KITS21/examples/
-KITS21/kits21/data
+kits21/examples/
+kits21/kits21/
