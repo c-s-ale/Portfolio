@@ -6,7 +6,8 @@
 
 # Fourth Brain Idenpendent Project Data
 /Fourth Brain Independent Project - Histopathologic Cancer Detection/data/
-
+/Fourth Brain Independent Project - Histopathologic Cancer Detection/alexnet_logs/
+/Fourth Brain Independent Project - Histopathologic Cancer Detection/logs/
 
 # MNIST CNN Data
 /MNIST Digit Recognizer/data
