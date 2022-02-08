@@ -1,3 +1,6 @@
-This project contains two different versions, and chronicles my journey through the FourthBrain Machine Learning Engineer Program.
+This project includes two main Notebooks:
 
-I decided to do this optional project in order to familiarize myself with the various methods used in typical image classification problems. 
+  Chris Alexiuk - Independent Kaggle Project.ipynb ::
+    Outlines traditional algorithms as well as PCA and data cleaning/preprocessing
+  Chris Alexiuk - Independent Kaggle Project - Deep Learning.ipynb ::
+    Outlines Deep Learning techniques on the same dataset, as well as transfer learning
