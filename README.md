@@ -6,4 +6,4 @@ Check out the project folders above which include a small sampling of some of th
 Check out https://investorhop.com/ for a glance at a project I built at work! It uses a combination of traditional finance optimization algorithms and a cuistom built timeseries forecasting model to determine potentially profitable portfolios, while taking user risk/preference into account!
 
 Thanks for checking out my portfolio,
-Chris (Scott)
+Chris
